@@ -1,11 +1,11 @@
 # Lab 1
 ## Question Two
 ### Importing the Data:
-![Figure 1](https://meredithwebb.github.io/DATA310/Screen_Shot_2021-02-15_at_5.35.24_PM.png)
+![Figure 1](https://meredithwebb.github.io/DATA310/Question2.png)
 ### Imputation for replacing the NaN values in the "Age" column with the median of the column:
-![Figure 2](https://meredithwebb.github.io/DATA310/Screen_Shot_2021-02-15_at_5.36.18_PM.png)
+![Figure 2](https://meredithwebb.github.io/DATA310/Question22.png)
 ## Question Five: 
-### If 30% of the people infected with the virus are asymtomatic, then 70% of them are symptomatic. Knowing this, I multiplied .70 by .15 and then divided that value by .35, which is the percentage of the population with general respiratory symptoms to get an answer of 30%
+If 30% of the people infected with the virus are asymtomatic, then 70% of them are symptomatic. Knowing this, I multiplied .70 by .15 and then divided that value by .35, which is the percentage of the population with general respiratory symptoms to get an answer of 30%
 ## Question Eight: 
 %matplotlib inline
 %config InlineBackend.figure_format = 'retina'
@@ -31,7 +31,7 @@ def monte_carlo(n):
   for i in range(n):
      random.shuffle(doors)
 
-     k = random.randrange(4)
+      k = random.randrange(4)
 
      if doors[k] != 'car':
        switch_wins +=1
