@@ -1,4 +1,5 @@
 # Lab 1
+#### Meredith Webb | Applied Machine Learning | February 15 2021
 ## Question Two
 ### Importing the Data:
 ![Figure 1](https://meredithwebb.github.io/DATA310/Question2.png)
