@@ -33,7 +33,8 @@ weight_percentiles[21]
     
   **array([0.67741935])**
   
-  #### Question 6:
+#### Question 6:
+
 x = cars[['wt']]
 
 y = cars[['mpg']]
